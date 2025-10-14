@@ -64,14 +64,6 @@
 
 ## 5. Experiment
 
-<div align="center" style="font-size:60%; width:70%;">
-    
-|No.|실험자|Base model|실험내용|valid_loss|valid Rouge[1,2,l]|test Rouge[1,2,l]|Result|
-|-|-------|-----------------------------|---------------------------------------------------------|-------|------|------|------|
-|1|김수환|BaseLine Model(digit82/kobart-summarization)|베이스라인 모델|0.5240|0.3639/0.1315/0.3432|0.5631/0.3659/0.4726|46.7182|
-
-</div>
-
 ## 5. 트러블 슈팅
 ### 1. OOO 에러 발견
 
