@@ -57,7 +57,10 @@ jupyterlab==4.0.9
 #### 해결
 - _프로젝트 진행 중 발생한 트러블 해결방법 대해 작성해주세요_
 
-<br>
+### Presentation
+
+- [AI-부트캠프-14기.pptx]()
+
 ## etc
 
 ### Meeting Log
