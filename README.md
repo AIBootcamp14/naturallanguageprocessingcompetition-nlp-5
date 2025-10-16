@@ -73,6 +73,8 @@ Wandb를 이용해서 모델 추적 및 평가 진행
 
 ## Experiment
 
+[실험 기록](https://docs.google.com/spreadsheets/d/14OCF-IG1Ow3Q75yJ32m3QmpuRJgbQS-B4O3NNMDZAYU/edit?gid=0#gid=0)
+
 ## etc
 
 ### Meeting Log
@@ -90,13 +92,13 @@ Wandb를 이용해서 모델 추적 및 평가 진행
 <br>
 
 
-## 7. 참고자료
+## 참고자료
 
-### Reference
+#### Reference
 - [Text Summarization Repo](https://github.com/uoneway/Text-Summarization-Repo)
 - [QLoRA + 4bit quantization + LDCC-SOLAR-10.7B](https://dacon.io/en/competitions/official/236216/codeshare/9692)
 - [Prompt engineering guide](https://www.promptingguide.ai/kr)
 
 #### Libraries/Tool
-[uv-docs](https://docs.astral.sh/uv/)
-[uv-gitgub](https://github.com/astral-sh/uv)
+- [uv-docs](https://docs.astral.sh/uv/)
+- [uv-gitgub](https://github.com/astral-sh/uv)
