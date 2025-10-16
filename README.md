@@ -1,6 +1,9 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/HS6nBbT4)
 # Dialogue Summarization | 일상 대화 요약
 <br>
+## 프로젝트 소개
+### <프로젝트 소개>
+- 학교 생활, 직장, 치료, 쇼핑, 여가, 여행 등 광범위한 일상 생활 중 하는 대화들에 대해 요약합니다.
 ## Team
 
 | ![김수환](https://github.com/user-attachments/assets/bfe05d23-81d0-4409-aca9-b1bb1fb5107f) | ![김명철](https://github.com/user-attachments/assets/0c545d12-539f-419d-816a-a0e4263cc0b2) | ![김상윤](https://github.com/user-attachments/assets/5bd23640-3d34-4292-bc81-e202136a1b6f) | ![김광묵](https://github.com/user-attachments/assets/5aee2fa3-df3c-4183-a780-f2028ad613ca) | ![장윤정](https://github.com/user-attachments/assets/bee0c0c4-ae06-4477-8ea6-a3cdaf2b00f8) |
