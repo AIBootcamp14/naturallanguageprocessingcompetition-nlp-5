@@ -19,11 +19,12 @@
 
 <br>
 
-## 0. Overview
+## Overview
 
 ### Environment
 
-- Python 3.10
+- Python 3.12.11
+- UV==0.9.3
 
 ### Requirements
 
@@ -41,43 +42,36 @@ jupyterlab==4.0.9
 
 <br>
 
-## 3. 구현 기능
+## EDA
 
-### 기능1
+### 대화문(dialogue) 발화자 수 확인
 
-- _작품에 대한 주요 기능을 작성해주세요_
+- Train 데이터의 경우 Person1-7, 최대 7명의 대화문
+- Valid, Test 데이터의 경우 대부분 2명의 대화문으로 구성
 
-### 기능2
+### 마스킹 처리된 데이터 확인
 
-- _작품에 대한 주요 기능을 작성해주세요_
+- Train 데이터의 경우 17개의 마스킹 처리
+- Valid, Test 데이터의 경우 각 3개의 마스킹
 
-### 기능3
+### dialogue 내 불필요한 문자 제거
 
-- _작품에 대한 주요 기능을 작성해주세요_
+- ‘??’, ‘!!’, ‘...’ 등 중복 문자를 하나의 문자로 변경
+- ‘www.yahoo.com’ 등 웹 주소 형태의 텍스트를 #WebAddress#로 마스킹
+
+### Kiwipiepy 모듈 사용
+
+- Kiwi 형태소 분석기를 통해 불필요한 태그 제거
+- SO(붙임표, - ~), IC(감탄사), SP(구분 부호, / ;) SSO, SSC(인용 부호 및 괄호) 등을 제거
 
 <br>
 
-## 4. 작품 아키텍처(필수X)
-- #### _아래 이미지는 예시입니다_
-![이미지 설명](https://www.cadgraphics.co.kr/UPLOAD/editor/2024/07/04//2024726410gH04SyxMo3_editor_image.png)
+## 실험 추적 및 평가
+Wandb를 이용해서 모델 추적 및 평가 진행
 
 <br>
 
-## 5. Experiment
-
-## 5. 트러블 슈팅
-
-### 1. OOO 에러 발견
-
-#### 설명
-- _프로젝트 진행 중 발생한 트러블에 대해 작성해주세요_
-
-#### 해결
-- _프로젝트 진행 중 발생한 트러블 해결방법 대해 작성해주세요_
-
-### Presentation
-
-- [AI-부트캠프-14기.pptx]()
+## Experiment
 
 ## etc
 
@@ -96,23 +90,13 @@ jupyterlab==4.0.9
 <br>
 
 
-## 6. 프로젝트 회고
-### 김수환
-- 비밀
-
-### 김명철
-- 이여러 모델과 여러 하이퍼 파라미터 조합을 시도한 것보다 추가적인 데이터 정제를 한 것이 더 성능이  좋은 것을 보고, 다시 한 번 데이터 전처리에 대한 중요성을 느꼈다.
-
-### 김상윤
-- 지금까지 진행한 경진대회 중 제일 난이도가 높게 느껴졌고 데이터에서 topic에 시간투자를 많이 했는데 생각한 만큼의 결과를 가져오지 못해 아쉬웠고 추후에 기회가 있다면좀 더 다양한 시도를 해보고 싶다는  생각이 들었습니다
-
-### 김광묵
--  실험에서 제외시킨 모델(api를 이용한 대규모 모델과 다국어 모델)의 점수도 궁금함,
- 데이터의 정갈함이 얼마나 많은 부분을 차지하고 있는지 다시 한번 깨닳음
-
-### 장윤정
-- 데이터 정제에 시간을 많이 할애하여 증강이나 프롬프트 엔지니어링을 해보지 못해 아쉬웠습니다. 추후 기회가 된다면 공부해보려고 합니다!
-<br>
-
 ## 7. 참고자료
-- _참고자료를 첨부해주세요_
+
+### Reference
+- [Text Summarization Repo](https://github.com/uoneway/Text-Summarization-Repo)
+- [QLoRA + 4bit quantization + LDCC-SOLAR-10.7B](https://dacon.io/en/competitions/official/236216/codeshare/9692)
+- [Prompt engineering guide](https://www.promptingguide.ai/kr)
+
+#### Libraries/Tool
+[uv-docs](https://docs.astral.sh/uv/)
+[uv-gitgub](https://github.com/astral-sh/uv)
