@@ -1,0 +1,23 @@
+[project]
+name = "nlp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fire>=0.7.1",
+    "ipykernel>=6.30.1",
+    "jupyter>=1.1.1",
+    "jupyterlab>=4.4.9",
+    "matplot>=0.1.9",
+    "numpy>=2.3.3",
+    "openai>=2.2.0",
+    "pandas>=2.3.3",
+    "pytorch-lightning>=2.5.5",
+    "rouge>=1.0.1",
+    "seaborn>=0.13.2",
+    "tqdm>=4.67.1",
+    "transformers[torch]>=4.57.0",
+    "wandb>=0.22.2",
+]
